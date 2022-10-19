@@ -1,0 +1,119 @@
+.body_metaverse
+{
+    height: 100vh;
+    
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0 0;
+    
+}
+
+.picture_metaverse
+{   
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.pic 
+{   
+   
+    position: absolute;
+    height: 100vh;
+    top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+    background-attachment: fixed;
+  background-position: 40% 40%;
+    background-image: url(../assets/metaverse2.jpg);
+    background-size: cover;
+}
+
+.container_metaverse
+{   
+    display: flex;
+    position: flex;
+    display: grid;
+    margin-left: 100px;
+    margin-top: 150px;
+    background: rgb(83,2,80);
+background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%, rgba(44,0,71,0.5) 100%);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 500px;
+    height: 550px;
+    gap: -1rem;
+}
+
+.h2_metaverse
+{   
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 47px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    margin: 40px;
+}
+
+.p_metaverse
+{
+    color: white;
+
+    display: flex;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin: 40px;
+}
+
+@media (max-width:420px) {
+    
+    .pic{
+        width: 500px;
+        background-position: 100% 100%;
+    }
+
+    .container_metaverse{
+        margin-left: 56px;
+        max-width: 300px;
+        max-height: 400px;
+    }
+
+    .h2_metaverse{
+        display: flex;
+        margin-left: 20px;
+        font-size: 47px;
+    }
+
+    .p_metaverse{
+        margin-left: 34px;
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+
+}
+
+@media (max-width:412px) {
+    
+  
+
+    .container_metaverse{
+        margin-left: 30px;
+        max-width: 300px;
+        max-height: 400px;
+    }
+
+    
+
+
+}
