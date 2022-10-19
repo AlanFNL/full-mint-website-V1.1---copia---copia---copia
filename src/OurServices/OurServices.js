@@ -1,9 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { useInViewport } from 'react-in-viewport'
-import Sketch from '../assets/sketch.png'
 import Startup from '../assets/titulo.png'
 import Startup2 from '../assets/2.png'
-import  Data from '../assets/data.png'
 import Comercial from '../assets/1.png'
 import { useTranslation } from "react-i18next";
 import '../OurServices/OurServices.css'

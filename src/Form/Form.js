@@ -10,7 +10,7 @@ function Form() {
     const [t, i18n] = useTranslation("global");
     const [offsetY, setOffsetY] = useState(0);
     const handleScroll = () => setOffsetY(window.scrollY);
-    const [display, setDisplay] = React.useState('none');
+
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);

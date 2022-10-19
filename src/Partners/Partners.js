@@ -9,7 +9,6 @@ import fije from '../assets/1-06.png'
 import uala from '../assets/1-02.png'
 import pepsi from '../assets/1-04-04.png'
 import hrztl from '../assets/1-07.png'
-import mileniumlogo from '../assets/milenium.png'
 import './Partners.css'
 
 function Partners() {
