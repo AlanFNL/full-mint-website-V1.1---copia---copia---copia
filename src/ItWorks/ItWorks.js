@@ -71,16 +71,7 @@ const getWhite = async () => {
         
     });
 
-    if (whiteInfo.balance >= 1) {
-        Swal.fire({
-            title: 'Increible',
-            text: 'Puede reclamar su NFT Gratis!',
-            icon: 'success',
-            timer: '5000'
-        })
-        
-    } else if (whiteInfo.balance = 0) {
-    }
+    
 }
 
 
