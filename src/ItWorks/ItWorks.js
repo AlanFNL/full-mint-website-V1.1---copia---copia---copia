@@ -5,7 +5,7 @@ import Spline from '@splinetool/react-spline';
 import { useTranslation } from "react-i18next";
 import { ethers } from 'ethers';
 import Test from '../NFTS_json_files/Test.json'
-import Swal from 'sweetalert2';
+
 
 function ItWorks() {
 
@@ -42,13 +42,9 @@ function ItWorks() {
     try { 
         const receipt = await tx.wait()
         console.log(receipt)
-        Swal.fire({
-            title: '',
-            text: 'NFT Minteado correctamente',
-            icon: 'success',
-            timer: '5000'
-        })
-    } catch (err) {
+        
+        }
+     catch (err) {
         alert(err)
         
 
