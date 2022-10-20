@@ -1,8 +1,6 @@
 import React from "react";
 import {Image, Box, Flex} from "@chakra-ui/react";
 import refor3 from '../assets/Reforce3.png'
-import 'animejs'
-import anime from "animejs/lib/anime.es.js"
 import '../HeroSection/Hero.css'
 
 
