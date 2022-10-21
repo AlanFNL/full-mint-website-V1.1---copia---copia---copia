@@ -147,7 +147,7 @@ background: linear-gradient(0deg, rgba(192,0,255,1) 0%, rgba(101,34,143,1) 0.1%,
 }
 
 
-@media (max-width: 1300px){
+@media (min-width: 1200px) and (max-width: 1300px){
     .client-in .ul-p .li-p
 {
     
