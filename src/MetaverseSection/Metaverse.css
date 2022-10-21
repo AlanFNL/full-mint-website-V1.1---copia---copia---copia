@@ -75,31 +75,35 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     margin: 40px;
 }
 
-@media screen and (max-width:420px) {
+@media (max-width:420px) {
     
     .pic{
         height: 100vh;
         width: 100vh;
-        
-        
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
     }
 
     .container_metaverse{
-        margin-left: 56px;
-        max-width: 300px;
-        max-height: 400px;
+        margin-left: 8px;
+        max-width: 400px;
+        max-height: 700px;
     }
 
     .h2_metaverse{
         display: flex;
         margin-left: 20px;
-        font-size: 47px;
+        font-size: 30px;
     }
 
     .p_metaverse{
         margin-left: 34px;
-        margin-top: 5px;
-        font-size: 10px;
+        margin-top: 4px;
+        display: flex;
+        font-size: 15px;
     }
 
 
@@ -110,12 +114,10 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
   
 
     .container_metaverse{
-        margin-left: 30px;
-        max-width: 300px;
-        max-height: 400px;
+        margin-left: 0px;
+        max-width: 400px;
+        max-height: 500px;
     }
-
-    
 
 
 }

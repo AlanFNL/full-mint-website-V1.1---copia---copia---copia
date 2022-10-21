@@ -62,8 +62,8 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
         top: -50px;
     }
     .container_itworks{
-        margin-left: 45px;
-        max-width: 300px;
+        margin-left: 10px;
+        max-width: 400px;
         max-height: 400px;
     }
 
@@ -73,11 +73,15 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     }
 
     .p_itworks{
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .spline_model{
        display: none;
+    }
+
+    .button_itworks{
+        display: none;
     }
 }
 

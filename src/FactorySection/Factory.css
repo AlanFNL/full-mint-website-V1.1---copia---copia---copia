@@ -82,64 +82,55 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     margin-bottom: 70px;
 }
 
-@media (max-width:420px) {
-    
-    .pic_factory{
-        width: 100%;
-        background-position: 40% 50%;
-    }
-
-    .container_factory{
-        margin-left: 56px;
-        max-width: 300px;
-        max-height: 400px;
-    }
-
-    .h2_factory{
-        display: flex;
-        margin-left: 20px;
-        font-size: 36px;
-    }
-
-    .p_factory{
-        margin-left: 34px;
-        margin-top: 5px;
-        font-size: 15px;
-    }
-
-
-}
-
-@media (max-width:412px) {
+@media (max-width:391px) {
     
     .pic_factory{
         height: 100vh;
         width: 100vh;
-        background-position: 100% 100%;
+       
+
     }
 
     .container_factory{
-        margin-left: 30px;
-        max-width: 300px;
-        max-height: 400px;
+        margin-left: 5px;
+        max-width: 400px;
+        max-height: 700px;
     }
 
     .h2_factory{
         display: flex;
         margin-left: 20px;
-        font-size: 36px;
+        font-size: 45px;
     }
 
     .p_factory{
         margin-left: 34px;
-        margin-top: 5px;
-        font-size: 12px;
+        margin-top: 4px;
+        display: flex;
+        font-size: 16px;
     }
 
 
 }
 
-@media (max-width: 1300px) {
+@media (min-width:412px) {
+    
+  
+
+    .container_factory{
+        margin-left: 0px;
+        max-width: 420px;
+        max-height: 600px;
+    }
+
+    .p_factory{
+        
+        font-size: 19px;
+    }
+
+}
+
+@media (min-width: 1300px) {
     .container_factory{
         margin-left: 700px;
     }
