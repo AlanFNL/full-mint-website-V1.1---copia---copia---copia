@@ -126,7 +126,7 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
         transition: 0.5s ease-in;
     }
 
-    .button_conectado{
+    .conectado, .button_conectado{
         display: none;
         visibility: hidden;
     }
