@@ -78,7 +78,7 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
 @media (max-width:420px) {
     
     .pic{
-        width: 500px;
+        width: 100%;
         background-position: 100% 100%;
     }
 
