@@ -40,7 +40,7 @@ function Services () {
         <div className='card_verticals'>
        
           <div className='imgBx' data-text="Consult">
-            <img className='img_verticals' src={Comercial} alt="Photo1"></img>
+            <img className='img_verticals' src={Startup2} alt="Photo1"></img>
                 </div>
                 <div className='content_verticals'>
                     <div>
@@ -55,7 +55,7 @@ function Services () {
 
             <div className='card_verticals'>
           <div className='imgBx' data-text="Design">
-            <img className='img_verticals' src={Startup2} alt="Photo2"></img>
+            <img className='img_verticals' src={Comercial} alt="Photo2"></img>
                 </div>
                 <div className='content_verticals'>
                     <div>
