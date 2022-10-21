@@ -78,8 +78,10 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
 @media screen and (max-width:420px) {
     
     .pic{
-        width: 100%;
-        background-position: 100% 100%;
+        height: 100vh;
+        width: 100vh;
+        
+        
     }
 
     .container_metaverse{
@@ -97,7 +99,7 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     .p_metaverse{
         margin-left: 34px;
         margin-top: 5px;
-        font-size: 13px;
+        font-size: 10px;
     }
 
 

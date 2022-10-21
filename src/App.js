@@ -45,62 +45,26 @@ function App() {
 
     <div className="NavBar">
       <NavBar accounts={accounts} setAccounts={setAccounts} />
-      
+      <BackToTopButton/>
    </div>
-   <BackToTopButton/>
+   
    <div className="moving-background" style={{ filter: `blur(${offsetY * 0.01}px`}}>
-  
   </div>
 
-  <div className="moving-background2">
-  
-  </div>
+  <div className="moving-background2"></div>
 
       <Hero accounts={accounts} setAccounts={setAccounts} />
-      
       <ItWorks id='about'/>
       <Services id='process'/>
       <Metaverse id='metaverse'/>
       <Factory id='nft'/>
-      {/* 
-      <About id='mint' accounts={accounts} setAccounts={setAccounts}/>
-      
-    <div className='SectionUno'>
-      <SectionUno id='seccionuno' />
-    </div>
-    <div className='SectionDos'>
-      <SectionDos id='seccionDos' />
-    </div>
-    <div className='SectionTres'>
-      <SectionTres id='seccionTres' />
-    </div>
-    <div className='SectionCuatro'>
-      <SectionCuatro id='seccionCuatro' />
-    </div>
-    
-   
-      
-      <div className='Web3'>
-      <Web3 accounts={accounts} setAccounts={setAccounts}/>
-    </div>
-    */}
     <Partners id='partners'/>
     <Form balanceInfo={balanceInfo} setBalanceInfo={setBalanceInfo}/>
     <Footer id='contact'/>
-    
-    
-   
-
 
   </div>
   </BrowserRouter>
- 
 
-  
-
-
-  
-  
 </div>  
 
   );
