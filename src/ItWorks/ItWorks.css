@@ -56,6 +56,12 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     margin: 50px;
 }
 
+@media screen and (max-width: 1300px ) {
+    .spline_model{
+        width: 700px;
+    }
+}
+
 @media (max-width:420px) {
     
     .body_itworks{

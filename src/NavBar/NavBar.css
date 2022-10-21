@@ -100,10 +100,10 @@ background: linear-gradient(247deg, rgb(170, 7, 165) 0%, rgba(128, 8, 197, 0.75)
 
 @media (max-width: 1300px) {
     .a_navbar{
-        left: -40px;
+        left: 0px;
         top: 5px;
         margin: -1px;
-        font-size: 11px;
+        font-size: 14px;
     }
 
     .button_conectado{
