@@ -45,8 +45,9 @@ function App() {
 
     <div className="NavBar">
       <NavBar accounts={accounts} setAccounts={setAccounts} />
-      <BackToTopButton/>
+      
    </div>
+   <BackToTopButton/>
    <div className="moving-background" style={{ filter: `blur(${offsetY * 0.01}px`}}>
   
   </div>
