@@ -75,14 +75,14 @@ link:hover:after{
 }
 
 .toggler_navbar{
-    cursor: pointer;
+    cursor: pointer!important;
     display: none;
     margin-left: 95px;
     transition: 0.3s ease-in;
 }
 
 .toggler_navbar div{
-       width: 2.5rem;
+       width: 2.5rem!important;
        height: 0.3rem;
        margin: 0.5rem;
        background: rgb(83,2,80);
