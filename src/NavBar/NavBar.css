@@ -98,6 +98,24 @@ background: linear-gradient(247deg, rgb(170, 7, 165) 0%, rgba(128, 8, 197, 0.75)
     display: block;
 }
 
+@media (max-width: 1300px) {
+    .a_navbar{
+        left: -40px;
+        top: 5px;
+        margin: -1px;
+        font-size: 11px;
+    }
+
+    .button_conectado{
+        width: 90px;
+        
+    }
+
+    .text_conectado{
+        font-size: 13px;
+    }
+}
+
 @media (max-width: 768px) 
 {
     .toggler_navbar{

@@ -112,12 +112,13 @@ const NavBar = ({accounts, setAccounts}) => {
                 boxShadow="0px 2px 2px 1px #0F0F0F"
                 color="white"
                 cursor="pointer"
-                fontFamily="inherit"
+                fontFamily="Poppins"
                 padding="15px"
                 left={-3}
 
                  onClick={connectAccount}>
-                    {t("nav.7")}
+                    <p className='text_conectado'>{t("nav.7")}</p>
+                   
                     </Button>
              )}
            <div className='botones'>

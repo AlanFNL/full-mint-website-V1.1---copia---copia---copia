@@ -49,6 +49,11 @@ footer
     }
 }
 
+@media (max-width: 1300px) {
+    .body_footer{
+        margin-top: 100px;
+    }
+}
 footer .social_icon
 {
     position: relative;

@@ -138,3 +138,13 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
 
 
 }
+
+@media (max-width: 1300px) {
+    .container_factory{
+        margin-left: 700px;
+    }
+
+    .p_factory{
+        font-size: 19px;
+    }
+}
