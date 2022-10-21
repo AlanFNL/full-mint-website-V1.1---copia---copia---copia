@@ -67,7 +67,6 @@ background: linear-gradient(0deg, rgba(192,0,255,1) 0%, rgba(101,34,143,1) 0.1%,
     height: 150px;
     position: relative;
     overflow: hidden;
-    cursor: pointer;
     margin: 60px;
     transition: .5s;
 }
@@ -90,29 +89,32 @@ background: linear-gradient(0deg, rgba(192,0,255,1) 0%, rgba(101,34,143,1) 0.1%,
 @media (max-width:420px) 
 {
     .body-p {
-        
         max-width: 440px;
-        
-        
         
     }
 
-    .client-wrap .h1-p
-{
+    .client-wrap .h1-p {
     font-size: 55px;
     color: rgb(201, 201, 201);
 }
 
 
-.client-in .ul-p .li-p
-{
+.client-in {
+    margin-left: -100px;
+    width: 150%;
+    height: auto;
+}
+
+.client-in .ul-p{
+    width: 120%;
     
+}
+
+.client-in .ul-p .li-p .img-p
+{   
     grid-template-columns: repeat(2, 1fr);
-    width: 100px;
-    height: 140px;
-    
-    margin: 5px;
-   
+    width: 50%;
+    height: 50%;
 }
 
 }
@@ -133,13 +135,23 @@ background: linear-gradient(0deg, rgba(192,0,255,1) 0%, rgba(101,34,143,1) 0.1%,
     color: rgb(201, 201, 201);
 }
 
+.client-in {
+    margin-left: -100px;
+    width: 150%;
+   
+}
+
+.client-in .ul-p{
+    width: 120%;
+    
+}
 
 .client-in .ul-p .li-p
 {
     
     grid-template-columns: repeat(2, 1fr);
     width: 90px;
-    height: 140px;
+    height: 110px;
     
     margin: 5px;
    
