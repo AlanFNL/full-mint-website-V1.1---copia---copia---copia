@@ -98,9 +98,9 @@ background: linear-gradient(247deg, rgb(170, 7, 165) 0%, rgba(128, 8, 197, 0.75)
     display: block;
 }
 
-@media (max-width: 1300px) {
+@media (min-width: 1200px) and (max-width: 1500px) {
     .a_navbar{
-        left: 0px;
+        left: -20px;
         top: 5px;
         margin: -1px;
         font-size: 14px;

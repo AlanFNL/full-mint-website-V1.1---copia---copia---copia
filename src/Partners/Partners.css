@@ -114,6 +114,14 @@ background: linear-gradient(0deg, rgba(192,0,255,1) 0%, rgba(101,34,143,1) 0.1%,
    
 }
 
+.client-in .ul-p .li-p .img-p
+{   
+    
+    width: 70%;
+    height: 100%;
+    color: white;
+}
+
 }
 
 @media (max-width:412px) 
