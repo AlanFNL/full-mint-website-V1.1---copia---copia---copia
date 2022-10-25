@@ -97,11 +97,12 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
 @media only screen and (max-width:414px) {
     
     .pic_factory{
-        height: 100vh;
-        width: 100vh;
+        height: 100%;
+        width: 100%;
         background-image: url(../assets/nft-mobile.png);
         background-position: center;
         background-size: 100%;
+        background-repeat: no-repeat;
     }
 
     .container_factory{
