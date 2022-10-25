@@ -191,3 +191,37 @@ background: linear-gradient(0deg, rgba(192,0,255,1) 0%, rgba(101,34,143,1) 0.1%,
 }
 }
 
+@media (min-width: 1500px) and (max-width: 1570px){
+    .client-in .ul-p .li-p
+{
+    
+    width: 100px;
+    height: 100px;
+    margin: 60px;
+   
+}
+}
+
+@media (min-width: 1571px) and (max-width: 1700px){
+    .client-in .ul-p .li-p
+{
+    
+    width: 100px;
+    height: 100px;
+    margin: 70px;
+   
+}
+}
+
+@media (min-width: 1700px) and (max-width: 1820px){
+    .client-in .ul-p .li-p
+{
+    
+    width: 100px;
+    height: 100px;
+    margin: 80px;
+   
+}
+}
+
+

@@ -98,12 +98,49 @@ background: linear-gradient(247deg, rgb(170, 7, 165) 0%, rgba(128, 8, 197, 0.75)
     display: block;
 }
 
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1530px) {
     .a_navbar{
         left: -20px;
         top: 0px;
         margin: -1px;
         font-size: 11px;
+    }
+
+    .button_conectado{
+        width: 90px;
+        
+    }
+
+    .text_conectado{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1760px) and (max-width: 1830px) {
+    .a_navbar{
+        left: -20px;
+        top: 0px;
+        margin: -1px;
+       
+    }
+
+    .button_conectado{
+        width: 90px;
+        
+    }
+
+    .text_conectado{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1531px) and (max-width: 1759px) {
+    .a_navbar{
+        left: -20px;
+        top: 0px;
+        margin: -1px;
+        font-size: 15px;
+       
     }
 
     .button_conectado{
