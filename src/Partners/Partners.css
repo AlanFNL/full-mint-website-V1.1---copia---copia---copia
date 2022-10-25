@@ -109,7 +109,7 @@ background: linear-gradient(0deg, rgba(192,0,255,1) 0%, rgba(101,34,143,1) 0.1%,
     
     grid-template-columns: repeat(2, 1fr);
     width: 100px;
-    height: 140px;
+    height: 120px;
     
     margin: 5px;
    
@@ -147,7 +147,7 @@ background: linear-gradient(0deg, rgba(192,0,255,1) 0%, rgba(101,34,143,1) 0.1%,
     
     grid-template-columns: repeat(2, 1fr);
     width: 90px;
-    height: 140px;
+    height: 110px;
     
     margin: 5px;
    
