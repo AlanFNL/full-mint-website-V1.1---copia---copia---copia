@@ -264,7 +264,13 @@ form .row_form .textarea
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1880px) {
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .body_form {
+        margin-bottom: -900px;
+    }
+}
+
+@media (min-width: 1501px) and (max-width: 1800px) {
     .body_form {
         margin-bottom: -1200px;
     }
