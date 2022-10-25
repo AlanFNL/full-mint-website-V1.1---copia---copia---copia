@@ -52,7 +52,6 @@ function BackToTopButton() {
      
      
      ref={ref}> 
-     <ScaleFade initialScale={0.5} in={inViewport} delay={1}>
      {BackToTopButton && (
         
         <Image className='reforLogo' cursor="pointer" src={ReforceLogo} boxSize="285px" margin="0 15px"  onClick={scrollUp}/>
@@ -61,7 +60,7 @@ function BackToTopButton() {
    
      )}
      
-     </ScaleFade>
+    
      </Box>
      
   </div>

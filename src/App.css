@@ -788,7 +788,7 @@ filter: drop-shadow(4px 4px #333);
 @media (min-width: 393px) and (max-width: 420px) {
     .moving-background2
     {
-      height: 770vh;
+      height: 790vh;
     }
 }
 
@@ -798,11 +798,17 @@ filter: drop-shadow(4px 4px #333);
   }
 
 }
+
 @media (min-width: 1300px) and (max-width: 1500px) {
   .moving-background2{
       height: 820vh;
   }
+}
 
+@media (min-width: 1501px) and (max-width: 1800px) {
+  .moving-background2{
+      height: 750vh;
+  }
 }
 
 

@@ -111,7 +111,7 @@ background: linear-gradient(0deg, rgba(192,0,255,1) 0%, rgba(101,34,143,1) 0.1%,
     width: 100px;
     height: 120px;
     
-    margin: 5px;
+    margin: 20px;
    
 }
 
@@ -125,7 +125,7 @@ background: linear-gradient(0deg, rgba(192,0,255,1) 0%, rgba(101,34,143,1) 0.1%,
 
 }
 
-@media (max-width:412px) 
+@media (max-width:413px) 
 {
     .body-p {
         
