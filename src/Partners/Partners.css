@@ -155,7 +155,7 @@ background: linear-gradient(0deg, rgba(192,0,255,1) 0%, rgba(101,34,143,1) 0.1%,
 }
 
 
-@media (min-width: 1200px) and (max-width: 1300px){
+@media (min-width: 1200px) and (max-width: 1428px){
     .client-in .ul-p .li-p
 {
     
@@ -167,4 +167,26 @@ background: linear-gradient(0deg, rgba(192,0,255,1) 0%, rgba(101,34,143,1) 0.1%,
 }
 }
 
+@media (min-width: 1429px) and (max-width: 1499px){
+    .client-in .ul-p .li-p
+{
+    
+    width: 100px;
+    height: 100px;
+    
+    margin: 55px;
+   
+}
+}
+
+@media (min-width: 1500px) and (max-width: 1600px){
+    .client-in .ul-p .li-p
+{
+    
+    width: 100px;
+    height: 100px;
+    margin: 60px;
+   
+}
+}
 
