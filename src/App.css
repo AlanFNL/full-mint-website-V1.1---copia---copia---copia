@@ -746,6 +746,9 @@ filter: drop-shadow(4px 4px #333);
   bottom: 0;
   background: url(/src/assets/abstract.gif) no-repeat center;
   background-size: cover;
+  -o-background-size:cover; 
+-moz-background-size:cover; 
+-webkit-background-size:cover; 
   height: 300vh;
   background-attachment: fixed;
   background-position: 40% 40%;
@@ -785,7 +788,7 @@ filter: drop-shadow(4px 4px #333);
 @media (min-width: 393px) and (max-width: 420px) {
     .moving-background2
     {
-      height: 750vh;
+      height: 770vh;
     }
 }
 
