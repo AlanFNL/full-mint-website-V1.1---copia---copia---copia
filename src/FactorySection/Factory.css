@@ -101,8 +101,8 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
         width: 100vh;
         background-image: url(../assets/nft-mobile.png);
         background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
     }
 
     .container_factory{
@@ -124,16 +124,9 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     .pic_factory{
         height: 100vh;
         width: 100vh;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
         background-image: url(../assets/nft-mobile.png);
-        background-position: 100% 100%;
-
-        background-size: cover;
-       
-
+        background-position: center;
+        background-size: 100% 100%;
     }
 
     .container_factory{

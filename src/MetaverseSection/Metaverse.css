@@ -82,8 +82,7 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
         width: 100vh;
         background-image: url(../assets/metaverse-mobile.png);
         background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
+        background-size: 100% 100%;
 
     }
 
@@ -116,8 +115,7 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
         width: 100vh;
         background-image: url(../assets/metaverse-mobile.png);
         background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
+        background-size: 100% 100%;
 
     }
   
