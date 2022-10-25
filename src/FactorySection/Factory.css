@@ -97,17 +97,17 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
 @media only screen and (max-width:414px) {
     
     .pic_factory{
-        height: 100vh;
-        width: 100vh;
-        background-image: url(../assets/nft-mobile.png);
+        position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        background-position: center;
-        background-size: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
+        background: rgb(83,2,80);
+        background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,1) 50%, rgba(44,0,71,1) 100%);
+        height: 100vh;
+        width: 100vh;
+        
+        background-position: 40% 40%;
 
     }
 
@@ -128,15 +128,17 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     
 
     .pic_factory{
-        height: 100vh;
-        width: 100vh;
-        background-image: url(../assets/nft-mobile.png);
+        position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        background-size: 100%;
-        background-size: cover;
+        background: rgb(83,2,80);
+        background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,1) 50%, rgba(44,0,71,1) 100%);
+        height: 100vh;
+        width: 100vh;
+        
+        background-position: 40% 40%;
     }
 
     .container_factory{
