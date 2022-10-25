@@ -32,7 +32,7 @@ function Footer() {
                         <div loading='lazy' className='wave' id='wave4'></div>
                     </div>
                     <ul className='social_icon'>
-                        <li className='li_social'><a className='a_social' href='https://www.instagram.com/reforceinfinity/'><img className='ig' loading='lazy' alt='instagram' src={instagramLogo}/></a></li>
+                        <li className='li_social'><a className='a_social' href='https://www.instagram.com/reforcecommunity/'><img className='ig' loading='lazy' alt='instagram' src={instagramLogo}/></a></li>
                         <li className='li_social'><a className='a_social' href='https://www.linkedin.com/company/reforce-infinity/'><img className='ig' loading='lazy' alt='linkedin' src={linkedinLogo}/></a></li>
                         <li className='li_social'><a className='a_social' href='https://twitter.com/reforceinfinity'><img className='ig' loading='lazy' alt='twitter' src={twitterLogo}/></a></li>
                     </ul>
