@@ -1,6 +1,6 @@
 .body_form
 { 
-    margin-bottom: -1019px;
+    margin-bottom: -1400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,7 @@
     width: 800px;
     max-width: 800px;
 
-    margin-bottom: 250px;
+    bottom: 300px;
 
     padding: 25px 40px 10px 40px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -249,5 +249,23 @@ form .row_form .textarea
 
     .message_form .danger_form{
         font-size: 12px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 379px) {
+    .body_form {
+        margin-bottom: -850px;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 420px) {
+    .body_form {
+        margin-bottom: -1150px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1880px) {
+    .body_form {
+        margin-bottom: -1200px;
     }
 }
