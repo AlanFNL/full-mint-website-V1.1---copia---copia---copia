@@ -112,8 +112,9 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     }
 
     .container_factory{
-        margin-left: 0px;
-        max-width: 420px;
+        margin-left: 20px;
+        margin-top: 50px;
+        max-width: 380px;
         max-height: 600px;
     }
 

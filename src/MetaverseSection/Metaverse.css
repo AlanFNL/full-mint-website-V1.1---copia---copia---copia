@@ -94,8 +94,9 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     }
 
     .container_metaverse{
-        margin-left: 8px;
-        max-width: 400px;
+        margin-top: 50px;
+        margin-left: 20px;
+        max-width: 380px;
         max-height: 700px;
     }
 
