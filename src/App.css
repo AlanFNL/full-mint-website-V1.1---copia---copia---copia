@@ -785,7 +785,7 @@ filter: drop-shadow(4px 4px #333);
 @media (min-width: 393px) and (max-width: 420px) {
     .moving-background2
     {
-      height: 790vh;
+      height: 750vh;
     }
 }
 
