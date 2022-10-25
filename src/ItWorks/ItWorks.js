@@ -89,7 +89,7 @@ const getWhite = async () => {
         </div>
         </div>
         <div className='spline_model'>
-        <Spline scene="https://prod.spline.design/MTGt6-GeQPy0x6H2/scene.splinecode" />
+        <Spline scene="https://prod.spline.design/szFswdfK9cuDOt-n/scene.splinecode" />
 
         </div>
         {Tienee ? (
