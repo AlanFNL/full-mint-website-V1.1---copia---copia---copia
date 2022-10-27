@@ -107,7 +107,9 @@ const NavBar = ({accounts, setAccounts}) => {
                 <Box className='conectado'>{t("nav.8")}</Box>
                  ) : (
                 <Button className='button_conectado'
-                backgroundColor="#900FB1"
+                
+                background= "linear-gradient(190deg, rgb(151, 5, 219) 0%, rgba(80,5,125,1) 50%, rgb(119, 4, 190) 100%)"
+                border= "1px solid rgba( 255, 255, 255, 0.18 )"
                 borderRadius="5px"
                 boxShadow="0px 2px 2px 1px #0F0F0F"
                 color="white"

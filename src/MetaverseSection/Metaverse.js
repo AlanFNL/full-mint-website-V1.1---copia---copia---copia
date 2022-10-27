@@ -1,7 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { useInViewport } from 'react-in-viewport'
 import { useTranslation } from "react-i18next";
+import reel from '../assets/reel.mp4'
 import './Metaverse.css'
+
+
 
 
 function Metaverse() {
@@ -22,8 +25,35 @@ function Metaverse() {
         { disconnectOnLeave: false},
         {}
     );
+  
+    const btn_meta = document.querySelector('.btn_metaverse');
 
+const videoContainer = document.querySelector('.video_container');
+
+const close = document.querySelector('.close');
+
+const video = document.querySelector('video');
+
+const myRef = useRef()
+
+const Boton = () => {
+    myRef.current.classList.add('show')
+}
+
+const BotonOff = () => {
+    myRef.current.classList.remove('show')
+    video.pause();
+    video.currentTime = 0;
+}
+
+
+
+ 
     return (
+
+        
+
+
         <body id='metaverse-studio' className='body_metaverse'>
             
             <div   className='picture_metaverse'>
@@ -32,13 +62,23 @@ function Metaverse() {
                 <div className='container_metaverse'>
         <h2 className='h2_metaverse'>METAVERSE STUDIO</h2>
         <p className='p_metaverse'>{t("metaverse.text")}</p>
+        
+        <div className='modal'>
+        <a  onClick={Boton}  className='btn_metaverse'>VER MÁS</a>
+
+          <div ref={myRef} className='video_container'>
+            <span onClick={BotonOff} className='close'>&#10006;</span>
+            <video src={reel} controls></video>
+          </div>
         </div>
+        
+                </div>
        
                 </div>
-           
+        
             </div>
            
-           </body>
+        </body>
 
 
          

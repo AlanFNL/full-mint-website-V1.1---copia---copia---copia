@@ -44,7 +44,7 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     width: 500px;
-    height: 550px;
+    height: 620px;
     gap: -1rem;
 }
 
@@ -58,7 +58,7 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     font-size: 47px;
     font-family: 'Poppins';
     font-weight: 800;
-    margin: 40px;
+    margin: 20px;
 }
 
 .p_metaverse
@@ -66,7 +66,7 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     color: white;
 
     display: flex;
-    padding-bottom: 100px;
+    
     align-items: center;
     justify-content: center;
     font-size: 21px;
@@ -74,6 +74,95 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     font-weight: 400;
     margin: 40px;
 }
+
+.modal {
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+.btn_metaverse {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 40px;
+    background: rgb(230,0,221);
+    background: linear-gradient(190deg, rgb(151, 5, 219) 0%, rgba(80,5,125,1) 50%, rgb(119, 4, 190) 100%);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: all 0.3s;
+    color: #fff;
+    border-radius: 10px;
+    font-size: "Poppins";
+    font-weight: bold;
+
+}
+
+.btn_metaverse:hover {
+    box-shadow:  0px 5px 22px #9d09c2;
+    filter: brightness(1.2);
+    
+}
+
+.video_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.video_container .close{
+    position: absolute;
+    top: 10%;
+    right: 25px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.video_container video{
+    width: 90%;
+    max-width: 1300px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s;
+}
+
+.video_container.show{
+    pointer-events: all;
+    opacity: 1;
+}
+
+.video_container.show video{
+      transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:420px) {
     

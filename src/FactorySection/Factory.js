@@ -32,7 +32,9 @@ function Factory() {
                 <div className='container_factory'>
         <h2 className='h2_factory'>NFT FACTORY</h2>
         <p className='p_factory'>{t("factory.text")}</p>
-        
+        <div className='modal'>
+        <a  href="https://chesterdrop.com/"className='btn_factory'>VER MÁS</a>
+        </div>
         </div>
         
                 </div>
