@@ -41,7 +41,7 @@ function BackToTopButton() {
     
     <Box
     className='reforLogo'
-     left= "200px"
+     left= "100px"
      width="300px"
      height="100%"
      position="fixed"

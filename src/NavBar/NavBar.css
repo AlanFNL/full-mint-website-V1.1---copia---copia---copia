@@ -102,8 +102,8 @@ background: linear-gradient(247deg, rgb(170, 7, 165) 0%, rgba(128, 8, 197, 0.75)
     .a_navbar{
         left: -20px;
         top: 0px;
-        margin: -1px;
-        font-size: 11px;
+        margin: -5px;
+        font-size: 13px;
     }
 
     .button_conectado{
@@ -134,7 +134,7 @@ background: linear-gradient(247deg, rgb(170, 7, 165) 0%, rgba(128, 8, 197, 0.75)
     }
 }
 
-@media (min-width: 1531px) and (max-width: 1759px) {
+@media (min-width: 1480px) and (max-width: 1759px) {
     .a_navbar{
         left: -20px;
         top: 0px;
@@ -235,8 +235,12 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
         margin-right: 15px;
     }
 }
+
+.reforLogo {
+    margin-left: -200px;
+}
 .reforsa {
-    margin-left: 200px;
+    margin-left: 100px;
      width: 300px;
      height: 100%;
      cursor: pointer;
