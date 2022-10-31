@@ -186,6 +186,7 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     border-radius: 5px;
     background-size:600%;
     transition: 0.5s;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     animation: anime 5s linear infinite
 }
 
