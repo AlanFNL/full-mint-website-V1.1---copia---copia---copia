@@ -5,6 +5,7 @@ import Spline from '@splinetool/react-spline';
 import { useTranslation } from "react-i18next";
 import { ethers } from 'ethers';
 import Test from '../NFTS_json_files/Test.json'
+import Swal from 'sweetalert2';
 
 
 function ItWorks() {
@@ -67,11 +68,28 @@ const getWhite = async () => {
     setWhiteInfo({
         address: signerAddress,
         balance: String(balance)
-        
-        
-    });
+    })
 
-    
+    if (whiteInfo.balance >= 1) {
+        Swal.fire({
+            title: 'Increible',
+            text: 'Puede reclamar su NFT Gratis!',
+            icon: 'success',
+            timer: '5000'
+        })
+        
+    } else if (whiteInfo.balance < 1) {
+        Swal.fire({
+            title: 'Oops',
+            html:
+            'No puedes reclamar el <b>NFT GRATIS</b>, para más info: ' +
+            '<a href="#contact"><u>CONTACTO</u></a> ',
+            icon: 'info',
+            showCloseButton: true,
+            showCancelButton: true,
+        })
+    }
+
 }
 
 
@@ -100,7 +118,7 @@ const getWhite = async () => {
 
                </button>
             ) : (
-                <p></p>
+              <p></p>
         )}
 
         </body>
