@@ -43,6 +43,7 @@
 background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%, rgba(44,0,71,0.5) 100%);
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
     width: 500px;
     height: 620px;
     gap: -1rem;
@@ -96,6 +97,137 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     
 }
 
+.modal_close {
+    margin-top: 20px;
+    width: 600px;
+    margin-left: 22%;
+    
+}
+.btn_factory2 {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 40px;
+    background: rgb(230,0,221);
+    background: linear-gradient(190deg, rgb(151, 5, 219) 0%, rgba(80,5,125,1) 50%, rgb(119, 4, 190) 100%);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: all 0.3s;
+    color: #fff;
+    border-radius: 10px;
+    font-size: "Poppins";
+    font-weight: bold;
+
+}
+
+.btn_factory2:hover {
+    box-shadow:  0px 5px 22px #9d09c2;
+    filter: brightness(1.2);
+    
+}
+
+
+.modal_container_f {
+  display: flex;
+  z-index: 999999999999999999;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  position: fixed;
+  opacity: 0;
+  top: 15%;
+  left:25%;
+  height: 70vh;
+  width: 100vh;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+
+.show {
+    pointer-events: auto;
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s;
+}
+
+.modal_f {
+    background: rgb(83,2,80);
+background: linear-gradient(123deg, rgba(83,2,80,1) 0%, rgba(80,5,125,1) 50%, rgba(44,0,71,1) 100%);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px;
+    text-align: center;
+}
+
+.container_nfts {
+    width: 100%;
+    height: 85vh;
+    padding: 0 6%;
+}
+
+.container_nfts .h1_nfts {
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+    margin-bottom: 60px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    position: relative;
+    font-size: 40px;
+}
+
+.container_nfts .h1_nfts::after {
+    content: '';
+    background: #8a027e;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.row_nfts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.service_nfts { 
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgba( 0, 0, 0, 0.10);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: transform 0.5s, background 0.5s;
+}
+
+.service_nfts .h2_nfts {
+    font-weight: 600;
+    font-size: 23px;
+    color: white;
+}
+
+.service_nfts .p_nfts {
+    color: white;
+}
+
+.service_nfts:hover {
+    background: rgb(83,2,80);
+    background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,1) 50%, rgba(44,0,71,1) 100%);
+    transition: all 0.5s;
+    border: 1px solid rgba( 255, 255, 255, 0.7 );
+    transform: scale(1.05);
+}
+
+.img_nfts {
+    margin-left: 44%;
+    max-width: 50px;
+    filter: invert(100%) sepia(0%) saturate(7480%) hue-rotate(291deg) brightness(103%) contrast(104%);
+}
 
 .sand_test
 {
@@ -114,6 +246,65 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     .p_factory{
         font-size: 19px;
     }
+
+    .container_factory{
+        padding-bottom: 150px
+    }
+
+    .modal_container_f {
+        
+        left: 15%;
+    }
+
+    .service_nfts { 
+        
+        font-size: 13px;
+    }
+    
+
+    .container_nfts {
+        width: 100%;
+        height: 50vh;
+        margin-bottom: 400px;
+        padding: 0 6%;
+    }
+    
+    .container_nfts .h1_nfts {
+       
+        margin-bottom: 30px;
+        font-size: 23px;
+    }
+
+    .service_nfts .h2_nfts {
+        font-size: 15px;
+    }
+
+    
+.service_nfts .p_nfts {
+    font-size: 12px;
+}
+
+    .modal_close {
+        margin-top: 5px;
+        width: 600px;
+        margin-left: -30%;
+        
+    }
+
+    
+.row_nfts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+}
+
+.img_nfts {
+    margin-left: 44%;
+    max-width: 20px;
+    filter: invert(100%) sepia(0%) saturate(7480%) hue-rotate(291deg) brightness(103%) contrast(104%);
+}
+
+   
 }
 
 @media (min-width: 1501px) and (max-width: 1800px) {
@@ -123,6 +314,34 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
 
     .p_factory{
         font-size: 19px;
+    }
+
+    .modal_container_f {
+        
+        left: 20%;
+    }
+
+    .service_nfts { 
+        
+        font-size: 13px;
+    }
+
+    
+    .container_nfts .h1_nfts {
+       
+        margin-bottom: 40px;
+        font-size: 26px;
+    }
+
+    .service_nfts .h2_nfts {
+        font-size: 18px;
+    }
+
+    .modal_close {
+        margin-top: 5px;
+        width: 600px;
+        margin-left: 10%;
+        
     }
 }
 
@@ -147,13 +366,39 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
         margin-left: 20px;
         margin-top: 50px;
         max-width: 380px;
-        max-height: 600px;
+        max-height: 630px;
+    }
+
+    .h2_factory{
+        display: flex;
+        margin-left: 20px;
+        font-size: 45px;
     }
 
     .p_factory{
-        
+        margin-left: 34px;
+        margin-top: 4px;
+        display: flex;
         font-size: 19px;
     }
+
+   .modal_close{
+    display: none;
+    visibility: hidden;
+    pointer-events: none;
+   }
+
+   .btn_factory2{
+    display: none;
+    visibility: hidden;
+    pointer-events: none;
+   }
+
+.show{
+    display: none;
+    visibility: hidden;
+    pointer-events: none;
+}
 
 }
 
@@ -192,6 +437,24 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
         margin-top: 4px;
         display: flex;
         font-size: 16px;
+    }
+
+    .modal_close{
+        display: none;
+        visibility: hidden;
+        pointer-events: none;
+       }
+    
+       .btn_factory2{
+        display: none;
+        visibility: hidden;
+        pointer-events: none;
+       }
+    
+    .show{
+        display: none;
+        visibility: hidden;
+        pointer-events: none;
     }
 
 
