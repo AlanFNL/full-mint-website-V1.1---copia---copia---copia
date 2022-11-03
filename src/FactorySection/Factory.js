@@ -2,8 +2,6 @@ import React, { useState, useRef, useEffect } from 'react'
 import { useInViewport } from 'react-in-viewport'
 import './Factory.css'
 import { useTranslation } from "react-i18next";
-import community from '../assets/community.png';
-import chart from '../assets/line-chart.png'
 import coins from '../assets/coins.png'
 import key from '../assets/key.png'
 import unlock from '../assets/padlock-unlock.png'
