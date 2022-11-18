@@ -68,61 +68,48 @@ const NavBar = ({accounts, setAccounts}) => {
              <ul className={active}>
 
              <Links to="#about" smooth scroll={el => scrollWithOffset(el)}>
-                <a className='a_navbar' href='#about'>{t("nav.1")}</a>
+                <a className='a_navbar' href='#about'>COMPRAR</a>
                 </Links>
                
              
                 <Links className='link' to="#process" smooth scroll={el => scrollWithOffset(el)}>
                 <a className='a_navbar' href='#process'>{t("nav.2")}</a>
                 </Links>
-                
-
-                <Links to="#metaverse-studio" smooth scroll={el => scrollWithOffset(el)}>
-                <a className='a_navbar' href='#metaverse-studio'>METAVERSE STUDIO</a>
-                </Links>
-
-                <Links to='#nft-factory' smooth scroll={el => scrollWithOffset(el)}>
-                <a className='a_navbar' href='#nft-factory'>NFT FACTORY</a>
-                </Links>
 
                 <Links to='#partners' smooth scroll={el => scrollWithOffset(el)}>
-                <a className='a_navbar' href='#partners'>{t("nav.5")}</a>
+                <a className='a_navbar' href='#partners'>FAQS</a>
                 </Links>
 
                 <Links to='#contact' smooth scroll={el => scrollWithOffset(el)}>
                 <a className='a_navbar' href='#contact'>{t("nav.6")}</a>
                 </Links>
+                
+                {isConnected ? (
+                <Box className='conectado'>{t("nav.8")}</Box>
+                 ) : (
+                  
+                    <a onClick={connectAccount} className='button_conectado'>CONECTAR</a>
+            
+                
+                    )}
+                    
+                   
+                   
+            
+                
+
                 </ul>
               <div onClick={ToggleNavbar} className={icon}>
                 <div className='line1'></div>
                 <div className='line2'></div>
                 <div className='line3'></div>
               </div>
-             
+              
                </nav>
                <Links to="#about" smooth scroll={el => scrollWithOffset(el)}></Links>
                
 
-               {isConnected ? (
-                <Box className='conectado'>{t("nav.8")}</Box>
-                 ) : (
-                <Button className='button_conectado'
-                
-                background= "linear-gradient(190deg, rgb(151, 5, 219) 0%, rgba(80,5,125,1) 50%, rgb(119, 4, 190) 100%)"
-                border= "1px solid rgba( 255, 255, 255, 0.18 )"
-                borderRadius="5px"
-                boxShadow="0px 2px 2px 1px #0F0F0F"
-                color="white"
-                cursor="pointer"
-                fontFamily="Poppins"
-                padding="15px"
-                left={-3}
-
-                 onClick={connectAccount}>
-                    <p className='text_conectado'>{t("nav.7")}</p>
-                   
-                    </Button>
-             )}
+               
            <div className='botones'>
              <button className='boton_l' onClick={() => i18n.changeLanguage("es")}>ES</button>
              <hr className='hr_botones'></hr>
