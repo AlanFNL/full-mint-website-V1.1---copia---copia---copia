@@ -5,6 +5,12 @@ import Spline from '@splinetool/react-spline';
 import { useTranslation } from "react-i18next";
 import { ethers } from 'ethers';
 import Test from '../NFTS_json_files/Test.json'
+import C1 from '../assets/cloud1.png'
+import C2 from '../assets/cloud2.png'
+import C3 from '../assets/cloud3.png'
+import C4 from '../assets/cloud4.png'
+import C5 from '../assets/cloud5.png'
+import A from '../assets/avi.png'
 
 
 function ItWorks() {
@@ -73,31 +79,71 @@ const getWhite = async () => {
 }
 
 
+var countDownDate = new Date("Dec 10, 2022 00:00:00").getTime();
+var x = setInterval(function(){
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+
+    var days = Math.floor(distance / (1000 * 60 * 60 *24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("days").innerHTML = days;
+    document.getElementById("hours").innerHTML = hours;
+    document.getElementById("minutes").innerHTML = minutes;
+    document.getElementById("seconds").innerHTML = seconds;
+
+}, 1000)
+
 
 
     return (
         <body className='body_itworks'>
+            <div className='clouds'>
+            <img src={C1} id="cloud1"></img>
+            <img src={C2} id="cloud2"></img>
+            <img src={C3} id="cloud3"></img>
+            <img src={C4} id="cloud4"></img>
+            <img src={C5} id="cloud5"></img>
+        </div>
         <div id='about'>
-            <div className='container_itworks'>
-        <h2 className='h2_itworks'>{t("header.about-us")}</h2>
-        <p className='p_itworks'>{t("header.about-us-text")}</p>
-        <button onClick={handleWhitelist} className='button_itworks'><p className='button_claim'>{t("header.claim")}</p></button>
+        
+
+
+        <section className='hero row container'>
+           
+        <div className='row'>
+        <img className='hero_img' src={A}></img>
+        </div>
+        <div className='container_itworks'>
+        <h2 className='h2_itworks'>Maradona FanFest NFT</h2>
+        <p className='p_itworks'>Un nft INCREIBLE, capaz de cambiar la vida a todo aquel que lo posea, único disponible, POWERED BY REFORCE POWERED BY DIEGO lorem lorem lorem lorem lorem lorem</p>
+        <button onClick={handleWhitelist} className='button_itworks'><p className='button_claim'>Comprar NFT</p></button>
+        <div className='launch-time'>
+            <div>
+                <p id='days'>00</p>
+                <span>DAYS</span>
+            </div>
+            <div>
+                <p id='hours'>00</p>
+                <span>HOURS</span>
+            </div>
+            <div>
+                <p id='minutes'>00</p>
+                <span>MINUTES</span>
+            </div>
+            <div>
+                <p id='seconds'>00</p>
+                <span>SECONDS</span>
+            </div>
         </div>
         </div>
-        <div className='spline_model'>
-        <Spline scene="https://prod.spline.design/szFswdfK9cuDOt-n/scene.splinecode" />
+        </section>
+
 
         </div>
-        {Tienee ? (
-            
-                <button className='button_mint'
-               onClick={handleWhitelist}>
-                 <p className='button_claim'>{t("header.claim")}</p>
-
-               </button>
-            ) : (
-              <p></p>
-        )}
+        
 
         </body>
    

@@ -1,15 +1,13 @@
 
 
-
 link :not(nav) {
     z-index: 20;
     height: 1vh;
-    width: 70vw;
-    min-width: 600px;
+    width: 90vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: auto;
+    text-align: center;
 }
 
 .a_navbar{  
@@ -17,10 +15,13 @@ link :not(nav) {
     position: relative;
     text-decoration: none;
     color: rgb(218, 218, 218);
-    font-size: 18px;
+    font-size: 22px;
+    
     font-weight: bold;
+    left: -30vh;
+    text-align: center;
     letter-spacing: 0.5px;
-    padding: 0 10px;
+    padding: 0 1rem;
 
 }
 
@@ -28,7 +29,7 @@ link :not(nav) {
     z-index: 20;
     content: "";
     position:absolute;
-    background-color: blueviolet;
+    background-color: rgb(7, 120, 212);
     height: 5px;
     width: 0;
     left: 0;
@@ -85,19 +86,46 @@ link:hover:after{
        width: 2.8rem!important;
        height: 0.3rem;
        margin: 0.5rem;
-       background: rgb(83,2,80);
-background: linear-gradient(247deg, rgb(170, 7, 165) 0%, rgba(128, 8, 197, 0.75) 50%, rgba(90, 4, 143, 0.5) 100%);
+       background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #a1d5e8 100%);
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
        transition: 0.3s ease-in;
 }
 
+.button_conectado {
+    background-image: linear-gradient(340deg, #0093E9 0%, #80D0C7 100%);
+    padding: 8px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 1px #0F0F0F;
+    cursor: pointer;
+    left: clamp(7rem, 35vw , 8rem );
+    height: 5vh;
+    text-align: center;
+    top: clamp(-2.5rem, -6vw , -5rem );
+    font-size: 22px;
+    width: 16vh;
+    color: white;
+    position: relative;
+    
+    
+    
+}
 
+.button_conectado:hover {
+   transform: scale(0.95);
+   transition: 0.3s ease-in-out;
+}
 
 .conectado, .button_conectado{
     display: block;
 }
 
+
+
+
+/* 
 @media (min-width: 1200px) and (max-width: 1530px) {
     .a_navbar{
         left: -20px;
@@ -153,6 +181,7 @@ background: linear-gradient(247deg, rgb(170, 7, 165) 0%, rgba(128, 8, 197, 0.75)
     }
 }
 
+*/
 @media (max-width: 768px) 
 {
     .toggler_navbar{
@@ -161,15 +190,19 @@ background: linear-gradient(247deg, rgb(170, 7, 165) 0%, rgba(128, 8, 197, 0.75)
    
     }
 
+    .a_navbar {
+        left: 0%;
+    }
+
     .menu_navbar{
         
         display: flex;
     flex-direction: column;
     width: 100%;
-    border-top: 1pxsolid #fff;
+    border-top: 1px solid #fff;
     position: absolute;
-    background: rgb(83,2,80);
-background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%, rgba(44,0,71,0.5) 100%);
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #a1d5e8 100%);
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     text-align: center;
@@ -188,8 +221,14 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
 
     .reforLogo{
         display: flex;
+        
         margin-left: -320px;
     }
+
+    .botones {
+        margin-top: -2vh;
+    }
+    
 }
 
 
@@ -207,21 +246,27 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     transform: rotate(45deg) translate(-12px, -15px);
   }
 
+.botones {
+    margin-top: clamp(-3rem, -4vw, -3rem) ;
+}
+
 
   .botones .hr_botones
-{
+{   
+    
     width: 100%;
     height: 2px;
     border: none;
-    background: #a703b6;
+    background: #078ecc;
     margin: auto;
 }
 
 .boton_l {
 
     display: flex;
+    
     color: rgb(221, 221, 221);
-    font-size: 19px;
+    font-size: 26px;
 }
 
 
@@ -230,18 +275,21 @@ background: linear-gradient(247deg, rgba(83,2,80,1) 0%, rgba(80,5,125,0.75) 50%,
     color: rgb(255, 255, 255);
     transition: 0.3s ease-in-out;
 }
-@media (max-width: 420px) {
+@media (max-width: 756px) {
     .botones {
         margin-right: 15px;
+        margin-top: -3vw;
     }
+
 }
 
 .reforLogo {
-    margin-left: -200px;
+    margin-left: -7vw;
+
 }
 .reforsa {
-    margin-left: 100px;
-     width: 300px;
+    margin-left: 10vw;
+     width: 3rem;
      height: 100%;
      cursor: pointer;
      pointer-events: auto;

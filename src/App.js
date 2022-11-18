@@ -4,15 +4,11 @@ import Hero from './HeroSection/Hero';
 import NavBar from '../src/NavBar/NavBar';
 
 import ItWorks from './ItWorks/ItWorks';
-
-
+import Partners from './Partners/Partners'
+import Sponsor from './SPONSOR/Sponsor'
 import Services from './OurServices/OurServices'
 import Footer from './Footer/Footer'
-import Metaverse from './MetaverseSection/Metaverse'
-import Factory from './FactorySection/Factory'
-
-import Form from './Form/Form';
-import Partners from './Partners/Partners'
+import FAQ from './FAQ/FAQ'
 import BackToTopButton from './NavBar/BackToTopButton';
 
 
@@ -56,11 +52,10 @@ function App() {
       <Hero accounts={accounts} setAccounts={setAccounts} />
       <ItWorks id='about'/>
       <Services id='process'/>
-      <Metaverse id='metaverse'/>
-      <Factory id='nft'/>
-    <Partners id='partners'/>
-    <Form balanceInfo={balanceInfo} setBalanceInfo={setBalanceInfo}/>
-    <Footer id='contact'/>
+      <Sponsor />
+      <Partners />
+      <FAQ/>
+      <Footer id='contact'/>
 
   </div>
   </BrowserRouter>
