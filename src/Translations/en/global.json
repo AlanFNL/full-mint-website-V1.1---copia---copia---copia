@@ -31,7 +31,21 @@
     },
 
     "factory": {
-        "text": "We add NFTs to your structure, strengthening the relationship between your brand and your audience: Merging technology with your business models, causing greater interaction and loyalty within your community."
+        "text": "We add NFTs to your structure, strengthening the relationship between your brand and your audience: Merging technology with your business models, causing greater interaction and loyalty within your community.",
+        "bullet-header": "NFT VALUES",
+        "bullet-1": "OWNERSHIP",
+        "bullet-2": "NEW REVENUE STREAM",
+        "bullet-3": "BRAND LOYALTY",
+        "bullet-4": "TOKENIZED PHYSICAL ASSETS",
+        "bullet-5": "UNLOCKABLE CONTENT",
+        "bullet-6": "MICROCREDENCIALS",
+        "bullet-1-i": "Own and unlock your digital assets.",
+        "bullet-2-i": "Create new revenue models through NFT.",
+        "bullet-3-i": "Generate greater interaction and loyalty with your users.",
+        "bullet-4-i": "Increase the value of your physical creations.",
+        "bullet-5-i": "Grant exclusive benefits to your community.",
+        "bullet-6-i": "Certify your experiences and knowledge on-chain.",
+        "bullet-close": "CLOSE"
     },
 
     "partners": {

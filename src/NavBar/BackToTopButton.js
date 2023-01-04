@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import {Box, ScaleFade, Image} from '@chakra-ui/react'
 import {useState, useEffect} from 'react';
 import { useInViewport } from 'react-in-viewport'
-import ReforceLogo from '../assets/Reforce2.png'
+import ReforceLogo from '../assets/favi.png'
 import './NavBar.css'
 
 
@@ -41,11 +41,11 @@ function BackToTopButton() {
     
     <Box
     className='reforLogo'
-     left= "100px"
-     width="300px"
+     left= "10%"
+     width="20%"
      height="100%"
      position="fixed"
-     top="-95px"
+     top="0.5rem"
      
      
      
@@ -54,7 +54,7 @@ function BackToTopButton() {
      ref={ref}> 
      {BackToTopButton && (
         
-        <Image className='reforLogo' cursor="pointer" src={ReforceLogo} boxSize="285px" margin="0 15px"  onClick={scrollUp}/>
+        <Image className='reforLogo' cursor="pointer" src={ReforceLogo} boxSize="100px" margin="0 15px" height="clamp(4rem, 10vh, 5rem)" width="clamp(4rem, 10vw, 5rem)" onClick={scrollUp}/>
    
         
    
