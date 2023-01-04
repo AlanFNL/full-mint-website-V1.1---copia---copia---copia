@@ -39,7 +39,7 @@ function Partners() {
                     </li>
                     <li className='li-p'>
                     <img loading='lazy' className='img-p' src={sandbox} alt=""/>
-                  
+                   
                     </li>
                     <li className='li-p'>
                     <img loading='lazy' className='img-p' src={pepsi} alt=""/>

@@ -62,7 +62,7 @@ const BotonOff = () => {
                 <div className='container_metaverse'>
         <h2 className='h2_metaverse'>METAVERSE STUDIO</h2>
         <p className='p_metaverse'>{t("metaverse.text")}</p>
-        
+         
         <div className='modal'>
         <a  onClick={Boton}  className='btn_metaverse'>VER MÁS</a>
 

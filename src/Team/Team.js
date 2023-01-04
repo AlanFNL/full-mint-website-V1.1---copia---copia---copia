@@ -17,7 +17,7 @@ function Team() {
       {rootMargin: "-200px"},
       { disconnectOnLeave: false},
       {}
-  );
+  ); 
 
 
 

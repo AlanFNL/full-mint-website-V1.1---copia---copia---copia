@@ -117,7 +117,7 @@ const NavBar = ({accounts, setAccounts}) => {
                 fontFamily="Poppins"
                 padding="15px"
                 left={-3}
-
+ 
                  onClick={connectAccount}>
                     <p className='text_conectado'>{t("nav.7")}</p>
                    

@@ -156,7 +156,7 @@ form .row_form .textarea
     background: linear-gradient(54deg, rgba(230,0,221,1) 0%, rgba(80,5,125,1) 50%, rgba(44,0,71,1) 100%);
     transition: all 0.3s;
 }
-
+ 
 .submit_btn .input_data:hover .inner_form
 {
     left: 0;

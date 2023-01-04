@@ -58,7 +58,7 @@ function App() {
       <Services id='process'/>
       <Metaverse id='metaverse'/>
       <Factory id='nft'/>
-    <Partners id='partners'/>
+    <Partners id='partners'/> 
     <Form balanceInfo={balanceInfo} setBalanceInfo={setBalanceInfo}/>
     <Footer id='contact'/>
 

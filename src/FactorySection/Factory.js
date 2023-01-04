@@ -39,7 +39,7 @@ function Factory() {
         Ref_f.current.classList.remove('show')
     
     }
-
+ 
     return (
         <body id='nft-factory' className='body_factory'>
             

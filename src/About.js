@@ -15,7 +15,7 @@ function About() {
         window.addEventListener('scroll', handleScroll);
 
         return () => window.removeEventListener('scroll', handleScroll)
-    }, []);
+    }, []); 
 
     const ref = useRef(null);
     const { inViewport } = useInViewport(

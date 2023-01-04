@@ -16,7 +16,7 @@
 			"internalType": "address",
 			"name": "account",
 			"type": "address"
-		  },
+		  }, 
 		  {
 			"indexed": true,
 			"internalType": "address",

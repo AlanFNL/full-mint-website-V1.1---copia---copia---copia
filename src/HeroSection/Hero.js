@@ -11,7 +11,7 @@ function Hero() {
    
    
     return (
-
+ 
         <Flex justify="center" align="center" >
             <Box width={1000}>
                 <div>

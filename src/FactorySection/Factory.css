@@ -193,7 +193,7 @@ background: linear-gradient(123deg, rgba(83,2,80,1) 0%, rgba(80,5,125,1) 50%, rg
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
 }
-
+ 
 .service_nfts { 
     text-align: center;
     padding: 25px 10px;

@@ -20,7 +20,7 @@ function Footer() {
 
 
     return (
-        
+         
             <body className='body_footer'>
 
                 
